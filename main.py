@@ -120,5 +120,4 @@ with open('sample.png', 'rb') as reader:
         read_chunk(reader)
 
 myCanvas = tkinter.Canvas(root, bg="red", height=height, width=width, bd=0, highlightthickness=0,)
-
 read_img_data(idat, height, width)
